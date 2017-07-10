@@ -1,0 +1,22 @@
+doctype
+head
+  title Snatch It
+  link(rel="stylesheet", type="text/css", href="./css/master.css")
+body
+  nav.navbar
+    .container
+      .navbar-header
+        a.navbar-brand(href="#") #[img(src="./images/logo.svg")]
+  section#main
+    .container
+      .row
+        .col-xs-12.text-center
+          h1 Grab any webpage and have it on your computer in seconds.
+          .app-form
+            input#url(type="text", name="snatch", placeholder="Enter a url...")
+            button#snatch(onclick="snatch()") Snatch!
+          p Only takes approximately 5 seconds!
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+script(src="./js/bootstrap.min.js")
+script(src="./js/grabzit.min.js")
+script(src="./js/app.js")

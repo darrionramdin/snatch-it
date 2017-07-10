@@ -1,0 +1,77 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+body {
+  height: 100%;
+  background: linear-gradient( rgba(25, 198, 86, .8), rgba(25, 198, 86, .8) ), url("../images/background.jpg");
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  font-size: 10px;
+}
+
+ul.nav li a {
+  padding-top: 30px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5em;
+
+  &:hover {
+    background: transparent;
+  }
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+#main {
+  margin-top: 20vh;
+}
+
+#main h1 {
+  font-size: 4em;
+  font-weight: 300;
+}
+
+.app-form {
+  margin-top: 30px;
+}
+
+#main input {
+  height: 50px;
+  width: 60%;
+  color: #b2b2b2;
+  font-size: 2em;
+  font-weight: 300;
+  padding-left: 15px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 10px 10px 15px #0d8a39;
+}
+
+#main input::placeholder {
+  font-style: italic;
+}
+
+#main input:focus {
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 10px 20px 15px #0d8a39;
+}
+
+#main button {
+  background: #ff7500;
+  border: none;
+  height: 50px;
+  font-size: 2em;
+  border-radius: 2px;
+  box-shadow: 10px 10px 15px #0d8a39;
+  padding: 0px 15px 0px 15px;
+}
+
+#main p {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
